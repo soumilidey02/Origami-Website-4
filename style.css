@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    color:rgb(17, 0, 255);
+}
+h2{
+    text-align: center;
+    color: rgb(255, 0, 149);
+}
+.header{
+    background-color: rgb(255, 0, 136);
+    display: flex;
+    justify-content: center;
+}
+.description{
+    text-align: center;
+    background-color: aqua;
+}
+.others{
+    text-align: center;
+    background-color: rgb(212, 250, 0);
+}
+.title{
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+}
+.item{
+    display: flex;
+    text-shadow: rgb(255, 0, 98);
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.matter{
+    position: relative;
+}
+.matter p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.matter:hover p{
+    opacity:1;
+}
+.matter:hover img{
+    opacity:0.33;
+}
+.matter{
+    background-color: rgb(0, 255, 170);
+    justify-content: center;
+}
+
+
+a:link{
+    color: blue;
+}
+a:visited{
+   color:blueviolet;
+}
